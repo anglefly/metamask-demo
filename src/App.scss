@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  .count-container {
+    margin: 20px auto;
+    text-align: left;
+    max-width: 500px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 0px 18px;
+  }
+  .account-balance-item {
+    & + .account-balance-item {
+      margin-top: 12px;
+    }
+  }
+}
